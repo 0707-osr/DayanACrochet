@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --nav-width: 92px;
+  
+    /*===== Colores =====*/
+    --first-color: #c5236f;
+    --bg-color: #f4f4f4;
+    --sub-color: #f4f4f4;
+    --white-color: #FFF;
+    /*===== Fuente y tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    
+    /*===== z index =====*/
+    --z-fixed: 100;
+  }
+
+.table2 {
+    width: 100%;
+  }
+
+  .table2 thead {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: var(--first-color);
+
+  }
+  
+  .table2 td {
+    color: rgb(103, 103, 103);
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+   
+  }
+  .page-item.active .page-link{
+    background: var(--first-color) !important;
+    border: none;
+    color: white;
+  }
+  
+  .table-responsive .pagination li {
+    border-radius: 6px;
+    margin-left: 5px;
+    outline: none;
+  }
+  
+  .table-responsive .pagination li a {
+    color: rgb(103, 103, 103);
+    border-radius: 6px;
+
+  }
+ 
